@@ -73,7 +73,7 @@ N.B:  Processes running in user space also *don't* have access to the kernel spa
 13. **Loopback Interface**- The loopback interface is a virtual interface that is always up and available after it has been configured. Note that the loopback interface is not tied to the address 127.0.0.1. It is used mainly for diagnostics and troubleshooting, and to connect to servers running on the local machine.
 
 
-![Loopback interface](https://paper-attachments.dropbox.com/s_9CC98CDD89DE30EAD1AFEDDFD88AE731DDA7A4F9FCD26FD6CFCBCBC719743BB2_1618661466981_image.png)
+![](https://paper-attachments.dropbox.com/s_9CC98CDD89DE30EAD1AFEDDFD88AE731DDA7A4F9FCD26FD6CFCBCBC719743BB2_1618661466981_image.png)
 
 
 
@@ -94,21 +94,23 @@ N.B:  Processes running in user space also *don't* have access to the kernel spa
 
 16. **Netcat webserver**- The Netcat utility program supports a wide range of commands to manage networks and monitor the flow of traffic data between systems.
 
+netcat server for viewing web request response of localhost:8000 using CLI
+
+![](https://paper-attachments.dropbox.com/s_9CC98CDD89DE30EAD1AFEDDFD88AE731DDA7A4F9FCD26FD6CFCBCBC719743BB2_1618664223759_image.png)
 
 
-![netcat server for viewing web request response of localhost:8000 using CLI](https://paper-attachments.dropbox.com/s_9CC98CDD89DE30EAD1AFEDDFD88AE731DDA7A4F9FCD26FD6CFCBCBC719743BB2_1618664223759_image.png)
+Loopback interface listening output
+
+![](https://paper-attachments.dropbox.com/s_9CC98CDD89DE30EAD1AFEDDFD88AE731DDA7A4F9FCD26FD6CFCBCBC719743BB2_1618664371438_image.png)
 
 
+Establish netcat Server network to listen on localhost 8000
+
+![](https://paper-attachments.dropbox.com/s_9CC98CDD89DE30EAD1AFEDDFD88AE731DDA7A4F9FCD26FD6CFCBCBC719743BB2_1618664895604_image.png)
 
 
-![Loopback interface listen output](https://paper-attachments.dropbox.com/s_9CC98CDD89DE30EAD1AFEDDFD88AE731DDA7A4F9FCD26FD6CFCBCBC719743BB2_1618664371438_image.png)
+Establish netcat server to listen on facbook Web request reponses
 
-
-
-![establish netcat Server network to listen on localhost 8000](https://paper-attachments.dropbox.com/s_9CC98CDD89DE30EAD1AFEDDFD88AE731DDA7A4F9FCD26FD6CFCBCBC719743BB2_1618664895604_image.png)
-
-
-
-![netcat server to listen on facbook Web reponses](https://paper-attachments.dropbox.com/s_9CC98CDD89DE30EAD1AFEDDFD88AE731DDA7A4F9FCD26FD6CFCBCBC719743BB2_1618667980374_image.png)
+![](https://paper-attachments.dropbox.com/s_9CC98CDD89DE30EAD1AFEDDFD88AE731DDA7A4F9FCD26FD6CFCBCBC719743BB2_1618667980374_image.png)
 
 
