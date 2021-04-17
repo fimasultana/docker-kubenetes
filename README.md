@@ -16,21 +16,21 @@
 
 
 
-1. **User Space-** User space is set of locations where normal user processes run. These processes can't access kernel space directly. User space refers to all of the code in an operating system that lives outside of the kernel.
+1) **User Space-** User space is set of locations where normal user processes run. These processes can't access kernel space directly. User space refers to all of the code in an operating system that lives outside of the kernel.
 
 
-2. **kernel Space-** The kernel provides abstraction for security, hardware, and internal data structures. Role of kernel space is to manage applications/ processes running in user space. Processes running under the kernel has access to all of the memory, whereas the user space have access only to a limited part of memory.
+2) **kernel Space-** The kernel provides abstraction for security, hardware, and internal data structures. Role of kernel space is to manage applications/ processes running in user space. Processes running under the kernel has access to all of the memory, whereas the user space have access only to a limited part of memory.
 
 N.B:  Processes running in user space also *don't* have access to the kernel space. User space processes can *only access a small part of the kernel* via an interface exposed by the kernel - the system calls. When a system call is executed the arguments to the call are passed from user space to kernel.
 
 
 
- 3. **Socket Binding**- Socket binding is basically assigning an address to it by which, it will be listening for requests to connect to that particular address.
+ 3) **Socket Binding**- Socket binding is basically assigning an address to it by which, it will be listening for requests to connect to that particular address.
  
- 4**. Polling**- Polling is the continuous checking by a controlling device or process of other devices, processes, queues, etc. in some defined sequence to see what state they are in and whether they need attention (such as whether they are still connected, want to communicate, contain tasks to be executed). 
+ 4) **Polling**- Polling is the continuous checking by a controlling device or process of other devices, processes, queues, etc. in some defined sequence to see what state they are in and whether they need attention (such as whether they are still connected, want to communicate, contain tasks to be executed). 
  
 
-5. **Web Server**- A web server is software and hardware that uses HTTP and other protocols to respond to client requests. The basic objective of the web server is to store, process and deliver web pages to the users.
+5) **Web Server**- A web server is software and hardware that uses HTTP and other protocols to respond to client requests. The basic objective of the web server is to store, process and deliver web pages to the users.
 
 
 6. **Network Namespace**- A network namespace is a logical copy of the network stack from the host system. ... Each namespace has its own IP addresses, network interfaces, routing tables, and so forth. The default or global namespace is the one in which the host system physical interfaces exist.
