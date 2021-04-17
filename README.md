@@ -109,7 +109,7 @@ Establish netcat Server network to listen on localhost 8000
 ![](https://paper-attachments.dropbox.com/s_9CC98CDD89DE30EAD1AFEDDFD88AE731DDA7A4F9FCD26FD6CFCBCBC719743BB2_1618664895604_image.png)
 
 
-Establish netcat server to listen on facbook Web request reponses
+Establish netcat server to listen on facebook Web request responses
 
 ![](https://paper-attachments.dropbox.com/s_9CC98CDD89DE30EAD1AFEDDFD88AE731DDA7A4F9FCD26FD6CFCBCBC719743BB2_1618667980374_image.png)
 
